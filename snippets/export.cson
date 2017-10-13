@@ -91,7 +91,6 @@
       meVue$1: function () {
         $1
       }
-
     """
   "name->vue":
     "prefix": "v-name"
