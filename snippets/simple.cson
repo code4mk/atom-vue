@@ -17,3 +17,8 @@
       $1
     },
     """
+  "slot ->vue":
+    "prefix": "v-slot"
+    "body": """
+     <slot />
+    """
