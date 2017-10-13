@@ -93,3 +93,13 @@
       }
 
     """
+  "name->vue":
+    "prefix": "v-name"
+    "body": """
+      name: '$1',
+    """
+  "mixins->vue":
+    "prefix": "v-mixins"
+    "body": """
+      mixins: [mixin]
+    """

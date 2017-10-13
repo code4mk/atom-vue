@@ -1,0 +1,19 @@
+########################################################
+#            Atom Vue Snippet                         #
+#                Template                            #
+#####################################################
+
+".text.html.vue":
+  "import ->vue":
+    "prefix": "v-import"
+    "body": """
+     import x from 'x$1'
+    """
+
+  "func() ->vue":
+    "prefix": "v-func"
+    "body": """
+     start$1 () {
+      $1
+    },
+    """
