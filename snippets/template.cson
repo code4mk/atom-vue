@@ -18,7 +18,7 @@
      }
      </script>
 
-     <style lang="css" >
+     <style lang="css" scoped >
        $1
      </style>
     """
