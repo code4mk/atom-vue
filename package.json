@@ -1,0 +1,19 @@
+{
+  "name": "atom-vue",
+  "version": "0.1.0",
+  "description": "Vue Snippet >> atom-vue by @code4mk",
+  "keywords": [
+    "vue",
+    "vue-snippet",
+    "laravel"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/code4mk/atom-vue"
+  },
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "dependencies": {}
+}

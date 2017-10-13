@@ -1,0 +1,72 @@
+########################################################
+#            Atom Vue Snippet                         #
+#                Directives                          #
+#####################################################
+
+".text.html.vue":
+
+  "v-text ->vue":
+    "prefix": "v-text"
+    "body": """
+     v-text="$1"
+    """
+  "v-html->vue":
+    "prefix": "v-html"
+    "body": """
+     v-html="$1"
+    """
+  "v-show->vue":
+    "prefix": "v-show"
+    "body": """
+     v-show
+    """
+  "v-if->vue":
+    "prefix": "v-if"
+    "body": """
+     v-if="$1"
+    """
+  "v-else-if->vue":
+    "prefix": "v-else-if"
+    "body": """
+     v-else-if="$1"
+    """
+  "v-else->vue":
+    "prefix": "v-else"
+    "body": """
+     v-else
+    """
+  "v-for->vue":
+    "prefix": "v-for"
+    "body": """
+     v-for="t$1 in t$1s"
+    """
+  "v-on->vue":
+    "prefix": "v-on"
+    "body": """
+     @click="$1"
+    """
+  "v-bind->vue":
+    "prefix": "v-bind"
+    "body": """
+     :$1
+    """
+  "v-model->vue":
+    "prefix": "v-model"
+    "body": """
+     v-model="$1"
+    """
+  "v-pre->vue":
+    "prefix": "v-pre"
+    "body": """
+     v-pre="$1"
+    """
+  "v-once->vue":
+    "prefix": "v-once"
+    "body": """
+     v-once
+    """
+  "v-cloak->vue":
+    "prefix": "v-cloak"
+    "body": """
+     v-cloak
+    """

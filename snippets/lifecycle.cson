@@ -1,0 +1,63 @@
+########################################################
+#            Atom Vue Snippet                         #
+#                Life-Cycle                          #
+#####################################################
+
+".text.html.vue":
+
+  "beforeCreate ->vue":
+    "prefix": "v-bcreate"
+    "body": """
+     beforeCreate: function () {
+       $1
+     }
+    """
+  "created ->vue":
+    "prefix": "v-created"
+    "body": """
+     created: function () {
+       $1
+     }
+    """
+  "beforeMount ->vue":
+    "prefix": "v-bMount"
+    "body": """
+     beforeMount: function () {
+       $1
+     }
+    """
+  "mounted ->vue":
+    "prefix": "v-mounted"
+    "body": """
+     mounted: function () {
+       $1
+     }
+    """
+  "beforeUpdate ->vue":
+    "prefix": "v-bUpdate"
+    "body": """
+     beforeUpdate: function () {
+       $1
+     }
+    """
+  "updated ->vue":
+    "prefix": "v-updated"
+    "body": """
+     updated: function () {
+       $1
+     }
+    """
+  "beforeDestroy ->vue":
+    "prefix": "v-bDestroy"
+    "body": """
+     beforeDestroy: function () {
+       $1
+     }
+    """
+  "destroyed ->vue":
+    "prefix": "v-destroyed"
+    "body": """
+     destroyed: function () {
+       $1
+     }
+    """

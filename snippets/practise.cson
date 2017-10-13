@@ -1,0 +1,20 @@
+########################################################
+#            Atom Vue Snippet                         #
+#                Directives                          #
+#####################################################
+
+".text.html.vue":
+
+
+  "v-text ->vue":
+    "prefix": "vp-for"
+    "body": """
+     infos: [
+       {'name': 'kamal'},
+       {'name': 'mostafa'},
+       {'name': 'nishi'},
+       {'name': 'monira'},
+       {'name': 'tester'},
+       {'name': 'aleya'}
+     ]
+    """

@@ -1,0 +1,24 @@
+########################################################
+#            Atom Vue Snippet                         #
+#                Template                            #
+#####################################################
+
+".text.html.vue":
+
+  "template->vue":
+    "prefix": "v-template"
+    "body": """
+     <template lang="html">
+       $1
+     </template>
+
+     <script>
+     export default {
+       $1
+     }
+     </script>
+
+     <style lang="css" >
+       $1
+     </style>
+    """
