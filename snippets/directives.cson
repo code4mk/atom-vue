@@ -38,7 +38,7 @@
   "v-for->vue":
     "prefix": "v-for"
     "body": """
-     v-for="t$1 in t$1s"
+     v-for="t$1 in t$1s"  :key="$1"
     """
   "v-on->vue":
     "prefix": "v-on"
