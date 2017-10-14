@@ -20,12 +20,12 @@
   "slot ->vue":
     "prefix": "v-slot"
     "body": """
-     <slot />
+     <slot/>
     """
   "export ->vue":
     "prefix": "v-export"
     "body": """
      export default {
-      
+       $1
      }
     """
