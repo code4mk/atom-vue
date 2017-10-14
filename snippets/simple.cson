@@ -1,6 +1,6 @@
 ########################################################
 #            Atom Vue Snippet                         #
-#                Template                            #
+#                Simple                              #
 #####################################################
 
 ".text.html.vue":
@@ -21,4 +21,11 @@
     "prefix": "v-slot"
     "body": """
      <slot />
+    """
+  "export ->vue":
+    "prefix": "v-export"
+    "body": """
+     export default {
+      
+     }
     """

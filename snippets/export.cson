@@ -1,6 +1,6 @@
 ########################################################
 #            Atom Vue Snippet                         #
-#                Template                            #
+#                Export                              #
 #####################################################
 
 ".text.html.vue":
@@ -28,9 +28,6 @@
   "props->vue":
     "prefix": "v-props"
     "body": """
-    /**
-     * The Props of Vue.
-     */
      props: {
        contextualStyle: {
          type: String,
@@ -41,9 +38,6 @@
   "components->vue":
     "prefix": "v-components"
     "body": """
-    /**
-     * The Components of Vue.
-     */
      components: {
          VLayout,
          VCard,
@@ -52,9 +46,6 @@
   "methods->vue":
     "prefix": "v-methods"
     "body": """
-    /**
-     * The Methods of Vue.
-     */
      methods: {
        countUp$1: function () {
          $1
@@ -64,9 +55,6 @@
   "computed->vue":
     "prefix": "v-computed"
     "body": """
-    /**
-     * The computed of Vue.
-     */
      computed: {
        countUp$1: function () {
          $1
@@ -76,9 +64,6 @@
   "watch()->vue":
     "prefix": "v-watch"
     "body": """
-    /**
-     * The watch of Vue.
-     */
      watch: {
        countUp$1: function () {
          $1
