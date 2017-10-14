@@ -12,7 +12,7 @@
      {{ $1 }}
     """
   "new line ->vue":
-    "prefix": "v-n"
+    "prefix": "vn"
     "body": """
      \t\n
     """
@@ -31,7 +31,7 @@
      props: {
        contextualStyle: {
          type: String,
-         required: false,
+         required: false
        }
      }
     """
