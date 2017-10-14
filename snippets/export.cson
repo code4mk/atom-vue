@@ -32,7 +32,7 @@
        contextualStyle: {
          type: String,
          required: false,
-       },
+       }
      }
     """
   "components->vue":
