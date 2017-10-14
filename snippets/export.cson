@@ -12,7 +12,7 @@
      {{ $1 }}
     """
   "new line ->vue":
-    "prefix": "vn"
+    "prefix": "v-new"
     "body": """
      \t\n
     """
