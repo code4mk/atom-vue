@@ -61,11 +61,20 @@
        }
      }
     """
-  "watch()->vue":
+  "watch->vue":
     "prefix": "v-watch"
     "body": """
      watch: {
        countUp$1: function () {
+         $1
+       }
+     }
+    """
+  "filters->vue":
+    "prefix": "v-filters"
+    "body": """
+     filters: {
+       capitalize$1: function (value) {
          $1
        }
      }
