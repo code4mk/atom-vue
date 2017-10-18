@@ -1,0 +1,14 @@
+########################################################
+#            Atom Vue Snippet                         #
+#                API                                 #
+#####################################################
+
+".text.html.vue":
+
+  "nexttick ->vue":
+    "prefix": "v-nexttick"
+    "body": """
+     this.$nextTick(function () {
+       $1
+     })
+    """

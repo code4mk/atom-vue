@@ -1,0 +1,13 @@
+########################################################
+#            Atom Vue Snippet                         #
+#             JQuery Addon Vue                       #
+#####################################################
+
+".text.html.vue":
+
+  "JQuery Addon ->vue":
+    "prefix": "v-jquery"
+    "body": """
+     import JQuery from 'jquery'
+     var $ = JQuery
+    """
