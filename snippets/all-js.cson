@@ -1,0 +1,17 @@
+########################################################
+#            Atom Vue Snippet                         #
+#            All js support                          #
+#####################################################
+
+'.source.js':
+
+  "prototype ->vue":
+    "prefix": "v-prototype"
+    "body": """
+     Vue.prototype.$appName = $1
+    """
+  "import ->vue":
+    "prefix": "v-import"
+    "body": """
+     import X from '$1'
+    """
