@@ -15,3 +15,8 @@
     "body": """
      import X from '$1'
     """
+  "use plugin ->vue":
+    "prefix": "v-use"
+    "body": """
+     Vue.use($1)
+    """
