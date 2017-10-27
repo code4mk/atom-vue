@@ -1,6 +1,6 @@
 <p align="center" ><img src="images/atom-vue.png"></p>
 
-#  ⚛️ Vue snippet for Vue , Laravel & Atom Lovers
+#  :atom: Vue snippet for Vue , Laravel & Atom Lovers
 
 Install:
 ```ssh
